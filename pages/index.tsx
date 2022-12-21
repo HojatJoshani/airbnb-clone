@@ -14,7 +14,7 @@ function Home({exploreData, cardsData} :any ) {
         <title>Airbnb Iran</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Header placeholder={undefined} />
       <Banner />
 
       <main className='max-w-5xl mx-auto px-8 sm:px-16'>
